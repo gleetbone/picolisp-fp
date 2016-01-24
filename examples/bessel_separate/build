@@ -1,0 +1,3 @@
+gcc -O3 -c -fpic bessel.c
+gcc -shared -o libbessel.so bessel.o
+

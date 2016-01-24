@@ -1,0 +1,3 @@
+gcc -O3 -c -fpic fp.c
+gcc -shared -o libfp.so fp.o
+
